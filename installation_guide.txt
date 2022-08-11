@@ -1,0 +1,31 @@
+Steps:
+
+1- (Optional) First create Virtual Envoirment
+    "python -m venv .venv"
+    then activate this Envoirment by 
+    ".venv\Scripts\activate"
+
+2- install dependencies/requirement
+    "pip install -r requirements.txt"
+
+3- After Installing requiremnts, you are good to go
+    By default it used SQLITE3 you can change it in settings.py file
+
+4- It will create "database.sqlite3" file in your directory, this is your database file
+
+5- you have to include .env file called django environment  and put your personal information of email in it
+
+6- .env file looks like
+    EMAIL_HOST=smtp.gmail.com
+    EMAIL_HOST_USER=your email
+    EMAIL_HOST_PASSWORD=your email app password
+    RECIPIENT_ADDRESS=sender email
+
+7- Type following command to run server everytime you want to run this project
+    "python manage.py runserver"
+
+
+    
+
+
+
